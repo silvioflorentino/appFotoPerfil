@@ -9,3 +9,34 @@
 
   
 </p>
+<p>
+Passo a passo direto e simples de como fazer upload de uma foto de perfil no app em React Native usando o Cloudinary.
+
+1. Instale as dependências: 
+
+Para tratar as fotos
+npm install expo-image-picker
+
+Para conectar com a api
+npm install axios
+
+2. Pegue suas credenciais do Cloudinary
+
+Acesse cloudinary.com
+
+Vá em Dashboard
+
+Anote:
+
+Cloud name
+
+Upload preset (crie um preset sem autenticação, tipo unsigned)
+
+Exemplo: 
+cloudinary
+upload
+mode: Unsigned
+name: present_public565
+Name: dgsffmd9f565 
+API key: 752661152412343565
+</p>
